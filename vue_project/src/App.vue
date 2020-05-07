@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <recommend></recommend>
+    <Recommend></Recommend>
   </div>
 </template>
 
 <script>
 
-import recommend from './components/recommend/recommend'
+import Recommend from './components/Recommend/Recommend'
 export default {
   name: 'App',
   components: {
-      recommend
+      Recommend
   }
 }
 </script>

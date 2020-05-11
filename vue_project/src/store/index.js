@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-// 声明使用Vuex
 Vue.use(Vuex)
 
+import state from './state'
+import getters from './getters'
+import mutations from './mutations'
+import actions from './actions'
 
-// 生成store对象,并向外暴露
 export default new Vuex.Store({
-   modules:{
-       
-   }
+    state,
+    getters,
+    mutations,
+    actions
 })

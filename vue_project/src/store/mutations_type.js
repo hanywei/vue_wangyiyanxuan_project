@@ -1,1 +1,1 @@
-export const TEXTS = 'texts'
+export const NAVDATA = "navData"

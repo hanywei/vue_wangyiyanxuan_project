@@ -1,11 +1,11 @@
 export default {  
-    name:'seller',
+    name:'recommend',
+    baseUrl:"/4001",
     api:{
-        getSeller:{
-            url:"/api/seller",
+        getIndexRecommend:{
+            url:"/getIndexData",
             method:"get",
         },
-      
     },
 }
 // updateList(){},

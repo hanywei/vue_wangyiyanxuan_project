@@ -1,20 +1,24 @@
 <template>
   <div id="app">
-    <Recommend></Recommend>
+    <router-view></router-view>
+    <FooterGuide></FooterGuide>
   </div>
 </template>
 
 <script>
-
-import Recommend from './components/Recommend/Recommend'
+import FooterGuide from './components/FooterGuide/FooterGuide'
 export default {
   name: 'App',
   components: {
-      Recommend
+      FooterGuide
   }
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
+  #app
+    width 100%
+    height 100%
+    overflow hidden
 
 </style>

@@ -1,10 +1,10 @@
 <template>
-    <div>app</div>
+    <div>classify</div>
 </template>
 
 <script>
 export default {
-
+    name:'Classify'
 }
 </script>
 

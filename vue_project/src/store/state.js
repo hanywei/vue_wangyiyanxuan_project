@@ -1,6 +1,5 @@
 export default{
-    getRecommendList:[]
-    // ratings:[],
+    getRecommendList:[],
     // seller:{},
     // addressObj:{},
     // iconTypes:["decrease","discount","guarantee","invoice","special"]

@@ -154,6 +154,7 @@
 <script>
 import BScroll from 'better-scroll'                           
 import Swiper from 'swiper'
+import 'swiper/css/swiper.min.css'
 import {mapActions,mapState} from 'vuex'
 import {NAVDATA} from '../store/mutations_type'
 export default {

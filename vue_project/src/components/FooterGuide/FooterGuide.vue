@@ -58,7 +58,7 @@ export default {
 
 <style scoped lang="stylus">
 .footter-guide
-    top-border -1px
+    top-border-1px(#ee44ee)
     position fixed
     z-index 100
     left 0
